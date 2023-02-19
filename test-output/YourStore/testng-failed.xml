@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [YourStore]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="YourStore_chrome(failed)">
+    <classes>
+      <class name="com.store.tests.ProductPurchaseTest">
+        <methods>
+          <include name="setUpPages"/>
+          <include name="initializeReport"/>
+          <include name="finalizeExecution"/>
+          <include name="afterMethod"/>
+          <include name="intializeTest"/>
+          <include name="setUpExecution"/>
+          <include name="YourStorePurchaseProduct"/>
+        </methods>
+      </class> <!-- com.store.tests.ProductPurchaseTest -->
+    </classes>
+  </test> <!-- YourStore_chrome(failed) -->
+</suite> <!-- Failed suite [YourStore] -->

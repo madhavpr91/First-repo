@@ -1,0 +1,6 @@
+com\store\pages\HomePage.class
+com\store\pages\PurchaseProductPage.class
+com\store\tests\ProductPurchaseTest.class
+com\store\pages\Configuration.class
+com\store\pages\zipFile.class
+com\store\pages\MonitorsPage.class
